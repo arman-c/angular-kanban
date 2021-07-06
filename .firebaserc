@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "kanban-demo-c897e": {
+      "hosting": {
+        "kanban": [
+          "kanban-demo-c897e"
+        ]
+      }
+    }
+  }
+}
