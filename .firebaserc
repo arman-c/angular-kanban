@@ -1,14 +1,5 @@
 {
-  "targets": {
-    "kanban-demo-c897e": {
-      "hosting": {
-        "kanban": [
-          "kanban-demo-c897e"
-        ]
-      }
-    }
-  },
   "projects": {
-    "default": "kanban-demo-c897e"
+    "default": "firestarter-demo-3c120"
   }
 }

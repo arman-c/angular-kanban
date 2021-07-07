@@ -1,27 +1,51 @@
-# Kanban
+# Angular Firebase • Kanban Board
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.8.
+![alt text](/readme_assets/kanban-demo.gif "Website demo")
 
-## Development server
+Portfolio project that allows users to login and create their own boards with cards to follow Agile development methodology.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Technologies Used
 
-## Code scaffolding
+- Angular 8.x
+- Firebase
+- Angular Material
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Notable Features
 
-## Build
+The goal of the project was to learn Angular and incorporate CRUD operations using Firebase as backend.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- Create new boards/cards
+- Delete existing boards/cards
+- Reorder existing boards/cards
+- Login/register via email/google/anonymous
+- Guard unauthorised users from accessing boards
 
-## Running unit tests
+### CRUD operations
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+You are able to interact with the application by:
 
-## Running end-to-end tests
+- Creating new boards and tasks
+- Removing boards and tasks
+- Updating your tasks and assigning different colors to them
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### Drag Drop
 
-## Further help
+Drag and drop in order to organize your boards and cards.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Login
+
+The app allows you to login or register in multiple ways:
+
+- Google Login
+- Email Login
+- Anonymous Session Login
+
+If you choose to register and login via email then you can also reset your password in case you forget it.
+
+### Cloud Save
+
+Your files are saved on the cloud using Firebase Firestore. This also allowed me to implement CRUD operations using Firebase as the backend.
+
+## Conclusions
+
+If you have any questions, comments, or concerns feel free to [reach out to me](ivanvoynov.com "ivanvoynov.com") and let me know 👋.

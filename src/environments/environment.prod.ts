@@ -1,6 +1,6 @@
 export const environment = {
   production: true,
-  firebase: {
+  firebaseConfig: {
     apiKey: "AIzaSyDJwGqBtZy7XpFwgpI423bM2oGI8rBkIIw",
     authDomain: "kanban-demo-c897e.firebaseapp.com",
     databaseURL: "https://kanban-demo-c897e-default-rtdb.firebaseio.com",
