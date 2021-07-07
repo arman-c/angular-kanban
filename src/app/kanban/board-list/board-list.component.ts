@@ -30,14 +30,12 @@ export class BoardListComponent implements OnInit, OnDestroy {
   }
 
   openBoardDialog(): void {
-    debugger
     const dialogRef = this.dialog.open(BoardDialogComponent, {
       width: "400px",
       data: {}
     });
 
     dialogRef.afterClosed().subscribe(result => {
-      debugger;
       if (result) {
         this.boardService.createBoard({
           title: result,
